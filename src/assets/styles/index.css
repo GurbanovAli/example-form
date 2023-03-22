@@ -1,0 +1,19 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/reset.css");
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(143, 143, 143, 0.4);
+  border-radius: 3px;
+}
+
+html {
+  touch-action: manipulation;
+}
